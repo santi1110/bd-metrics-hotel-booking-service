@@ -93,7 +93,7 @@ To check your CloudWatch metrics:
 1. Make sure you're in the US West (Oregon) region
 1. Go to Services->CloudWatch
 1. Go to Metrics
-1. Under Custom Namespace, click Unit4MetricsClassroomActivity
+1. Under Custom Namespace, click Unit6MetricsGuidedProject
 1. Click Marketplace, Service
 1. You should see your new metrics listed! Click the checkbox on the left to graph them above.
 1. In the graph metrics tab, make sure to update the statistic to sum to get the proper
@@ -154,26 +154,3 @@ Phase 2 is complete when:
  - You've added metrics that publish the `ReservationRevenue` metric to CloudWatch.
  - You've viewed your new metric in CloudWatch.
  - `Phase2Test` passes
- 
-# Extensions
- 
-## Extension 1
- Implement any of the other metrics that were brought up in the brainstorming!
- Some examples:
- * Latency of the APIs
- * Count of modifications that shorten the reservation vs those that lengthen the reservation.
- 
-## Extension 2
-Save your metrics to a CloudWatch dashboard to easily view all your metrics at once!
-
- To create a new dashboard in CloudWatch, follow these steps:
- 1. Open CloudWatch in your AWS console.
- 1. Click Dashboards in the menu on the left.
- 1. Click Create dashboard.
- 1. Give a name to your dashboard and press submit.
- 1. In the "Add to this dashboard" window, select "Line: Compare metrics over time" and click Configure.
- 1. Search for your metric that counts the number of queries for your cache and add it to the graph 
-    (by clicking the checkbox on the left).
- 1. Click Create widget.
-You should now see your metric on your new dashboard! You can add more metrics to your dashboard by clicking 
-"Add widget" at the top of your dashboard and following steps 5-7 above.
