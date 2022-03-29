@@ -5,7 +5,7 @@ package com.amazon.ata.metrics.classroom.metrics;
  */
 public class MetricsConstants {
 
-    public static final String NAMESPACE = "Unit4MetricsClassroomActivity";
+    public static final String NAMESPACE = "Unit6MetricsGuidedProject";
     public static final String SERVICE = "Service";
     public static final String SERVICE_NAME = "ATAHotelReservationService";
     public static final String MARKETPLACE = "Marketplace";
