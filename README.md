@@ -88,7 +88,7 @@ for recording metrics. Be sure to add the names of the metrics you create.
 Run `Phase1Test`. This makes some calls to your service.
 If things are working, then you should see your metrics in CloudWatch!
 
-To check your CloudWatch metrics:<br/>
+To check your CloudWatch metrics:<br/><br/>
 ***Note: You may need to possess the *CloudWatchFullAccess* permission to see the metrics.***
 1. Login to your AWS Account
 1. Make sure you're in the US West (Oregon) region
